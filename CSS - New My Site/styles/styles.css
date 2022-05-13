@@ -1,0 +1,226 @@
+/*----to remove the margin of the body and center----*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+/*----to remove the margin of h1, thus showing the h1 reaching the very top----*/
+.top-container {
+  background-color: #97C4B8;
+  position: relative;
+  margin: 0;
+}
+
+.top-container2 {
+  background-color: #97C4B8;
+  height: 383px;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
+  font-size: 100px;
+  letter-spacing: 2px;
+  font-style: normal;
+  margin: 0;
+  padding-top: 100px;
+  color: #2E4053;
+}
+
+.subtitle {
+  font-family: 'Lato', sans-serif;
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding-top: 10px;
+  color: #2E4053;
+  font-size: 30px;
+}
+
+.top-cloud {
+  width: 150px;
+  position: absolute;
+  right: 300px;
+  bottom: 120px;
+}
+
+.bottom-cloud {
+  width: 150px;
+  position: absolute;
+  left: 300px;
+  top: 160px;
+}
+
+.mountain {
+  width: 1000px;
+}
+
+.middle-container {
+  padding-top: 75px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.myphoto {
+  border-radius: 50%;
+  background-color: #D6F2F8;
+}
+
+.hello {
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #97C4B8;
+  font-size: 35px;
+}
+
+.description {
+  font-family: 'Source Serif Pro', serif;
+  color: #2E4053;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 30px;
+  width: 40%;
+  margin: auto;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 200px auto 200px auto;
+}
+
+.what-do-i-do {
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #3BA489;
+  margin-bottom: 100px;
+}
+
+.skill-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  color: #97C4B8;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.skill-title2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  color: #97C4B8;
+  font-size: 35px;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.bilingual {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-description {
+  font-family: 'Source Serif Pro', serif;
+  color: #2E4053;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+}
+
+.webdev {
+  width: 200px;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto 100px auto;
+}
+
+.h2-bottom {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #3BA489;
+  margin-bottom: 100px;
+}
+
+.h3-bottom {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  color: #97C4B8;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.p2 {
+  font-family: 'Source Serif Pro', serif;
+  color: #2E4053;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: #97C4B8;
+  background-image: -webkit-linear-gradient(top, #97C4B8, #3BA489);
+  background-image: -moz-linear-gradient(top, #97C4B8, #3BA489);
+  background-image: -ms-linear-gradient(top, #97C4B8, #3BA489);
+  background-image: -o-linear-gradient(top, #97C4B8, #3BA489);
+  background-image: linear-gradient(to bottom, #97C4B8, #3BA489);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Source Serif Pro', serif;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3BA489;
+  background-image: -webkit-linear-gradient(top, #3BA489, #97C4B8);
+  background-image: -moz-linear-gradient(top, #3BA489, #97C4B8);
+  background-image: -ms-linear-gradient(top, #3BA489, #97C4B8);
+  background-image: -o-linear-gradient(top, #3BA489, #97C4B8);
+  background-image: linear-gradient(to bottom, #3BA489, #97C4B8);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #97C4B8;
+  padding: 50px 0 20px;
+}
+
+.endmark {
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  color: #3BA489;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: white;
+}
